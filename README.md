@@ -1,2 +1,3 @@
 # Fake-news-Prediction-using-Logistic-Regression-Model
-Using logistic regression to predict if the news is fake or not
+In our project to predict fake news, we utilized a dataset comprising approximately 20,000 records with 5 distinct features. Since the dataset only provided textual labels, we first needed to convert the textual data into a numerical format suitable for machine learning. To achieve this, we employed text processing techniques such as stemming and the TF-IDF Vectorizer to transform the text into numerical features.
+After preprocessing the data, we trained a Logistic Regression model on the dataset. The model demonstrated excellent performance, achieving a high accuracy score of 97%.
